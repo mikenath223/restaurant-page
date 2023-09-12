@@ -1,5 +1,5 @@
 import './style.css';
-import {nav, home} from './load';
+import { nav, navBox, home, menu, contact } from './navbar';
 
 const element = document.querySelector('#content');
 // const nav = document.createElement('div');
@@ -10,7 +10,10 @@ const element = document.querySelector('#content');
 // navLink.setAttribute('href', '#')
 // navWrapper.appendChild(navLink);
 // nav.appendChild(navWrapper);
-nav.appendChild(home)
+navBox.appendChild(home);
+navBox.appendChild(menu);
+navBox.appendChild(contact);
+nav.appendChild(navBox);
 
 element.appendChild(nav);
 
