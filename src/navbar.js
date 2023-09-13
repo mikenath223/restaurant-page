@@ -11,6 +11,7 @@ class Navbar {
     createLink() {
         this.navLink.textContent = this.name;
         this.navLink.setAttribute('href', `#${this.clas}`);
+        this.navLink.setAttribute('class', this.clas);
         this.navList.appendChild(this.navLink);
         return this.navBox.appendChild(this.navList);
     }
