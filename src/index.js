@@ -1,5 +1,6 @@
 import './style.css';
 import { nav, navBox, home, menu, contact } from './navbar';
+import headline from './home'
 const restaurantPage = () => {
 
     const element = document.querySelector('#content');
@@ -9,6 +10,7 @@ const restaurantPage = () => {
     navBox.appendChild(menu);
     navBox.appendChild(contact);
     nav.appendChild(navBox);
+    main.appendChild(headline)
     element.appendChild(nav)
     return element.appendChild(main)
 }

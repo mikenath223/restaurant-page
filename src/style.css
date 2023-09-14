@@ -4,7 +4,66 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    gap: 50px;
+    background: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80') center/ cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #content {
     width: inherit;
     height: inherit;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #a52a2a;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-size: 24px;
+}
+
+li {
+list-style: none; 
+width: 10rem; 
+}
+
+li a {
+    text-decoration: none;
+    color: #028888;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 400px;
+    color: #ffd900;
+    background-color: #022020bc;
+    margin: 20px auto;
+    /* border-radius: 20px; */
+    box-shadow: 0px 0px 5px 0px #028888;
+}
+
+.div {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
 }
