@@ -8,9 +8,9 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     gap: 50px;
-    background: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80') center/ cover;
+    background: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80') center/ cover fixed;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -54,7 +54,6 @@ main {
     color: #ffd900;
     background-color: #022020bc;
     margin: 20px auto;
-    /* border-radius: 20px; */
     box-shadow: 0px 0px 5px 0px #028888;
 }
 
