@@ -49,6 +49,7 @@ const Menu = (() => {
             const desc = document.createElement('p');
             desc.textContent = _menus.description;
 
+            
             return _menuBox.appendChild(card);
         });
 

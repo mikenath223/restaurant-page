@@ -20,6 +20,6 @@ const nav = new Navbar().nav;
 const navBox = new Navbar().navBox;
 
 const home = new Navbar('Home', 'home').createLink();
-const menu = new Navbar('Menu', 'menu').createLink();
+const menuBar = new Navbar('Menu', 'menu').createLink();
 const contact = new Navbar('Contact', 'contact').createLink();
-export {nav, navBox, home, menu, contact};
+export {nav, navBox, home, menuBar, contact};
