@@ -46,9 +46,9 @@ li a {
 }
 
 main {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     width: 70%;
     height: 400px;
     color: #ffd900;

@@ -4,34 +4,40 @@ const Menu = (() => {
 
     const _menus = [
         {
+            // index: 0,
             image: '',
-            heading: '',
-            description: '',
+            heading: 'AGIDI PEPPER SOUP',
+            description: 'A blend of spicy soup, delicious. it soothes sore throat.',
         },
         {
+            // index: 1,
             image: '',
-            heading: '',
-            description: '',
+            heading: 'CATFISH PEPPER SOUP',
+            description: 'Catfish is a healthy breed of fresh water pond.',
         },
         {
+            // index: 2,
             image: '',
-            heading: '',
-            description: '',
+            heading: 'AGIDI PEPPER SOUP',
+            description: 'Lo',
         },
         {
+            // index: 3,
             image: '',
-            heading: '',
-            description: '',
+            heading: 'CATFISH PEPPER SOUP',
+            description: 'llll',
         },
         {
+            // index: 4,
             image: '',
-            heading: '',
-            description: '',
+            heading: 'AGIDI PEPPER SOUP',
+            description: 'llll',
         },
         {
+            // index: 5,
             image: '',
-            heading: '',
-            description: '',
+            heading: 'CATFISH PEPPER SOUP',
+            description: 'llll',
         },
     ];
 
@@ -44,13 +50,13 @@ const Menu = (() => {
             menuDesc.setAttribute('class', 'menu-desc');
             
             const img = document.createElement('img');
-            img.src = _menus.image;
+            img.src = menu.image;
 
-            const heading = document.createElement('div');
-            heading.textContent = _menus.heading;
+            const heading = document.createElement('h1');
+            heading.textContent = menu.heading;
             
             const desc = document.createElement('p');
-            desc.textContent = _menus.description;
+            desc.textContent = menu.description;
 
             menuDesc.appendChild(heading);
             menuDesc.appendChild(desc);
