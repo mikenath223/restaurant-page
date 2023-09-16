@@ -4,38 +4,32 @@ const Menu = (() => {
 
     const _menus = [
         {
-            // index: 0,
-            image: '',
+            image: '/src/images1.jpg',
             heading: 'AGIDI PEPPER SOUP',
             description: 'A blend of spicy soup, delicious. it soothes sore throat.',
         },
         {
-            // index: 1,
-            image: '',
+            image: '/src/images1.jpg',
             heading: 'CATFISH PEPPER SOUP',
             description: 'Catfish is a healthy breed of fresh water pond.',
         },
         {
-            // index: 2,
-            image: '',
+            image: '/src/images1.jpg',
             heading: 'AGIDI PEPPER SOUP',
             description: 'Lo',
         },
         {
-            // index: 3,
-            image: '',
+            image: '/src/images1.jpg',
             heading: 'CATFISH PEPPER SOUP',
             description: 'llll',
         },
         {
-            // index: 4,
-            image: '',
+            image: '/src/images1.jpg',
             heading: 'AGIDI PEPPER SOUP',
             description: 'llll',
         },
         {
-            // index: 5,
-            image: '',
+            image: '/src/images1.jpg',
             heading: 'CATFISH PEPPER SOUP',
             description: 'llll',
         },
@@ -52,7 +46,7 @@ const Menu = (() => {
             const img = document.createElement('img');
             img.src = menu.image;
 
-            const heading = document.createElement('h1');
+            const heading = document.createElement('h3');
             heading.textContent = menu.heading;
             
             const desc = document.createElement('p');
