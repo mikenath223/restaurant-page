@@ -18,12 +18,13 @@ const restaurantPage = () => {
     
     element.appendChild(nav);
     element.appendChild(main);
-    
+
     const btns = document.querySelectorAll('.nav-btn');
 
     return btns.forEach(btn => {
         btn.addEventListener('click', e => {
             if (e.target.textContent === 'Home') {
+
                 if (main.contains(menuPage)) {
                     return main.replaceChild(headline, menuPage)
                 } else if (main.contains(contactPage)) {
@@ -33,6 +34,7 @@ const restaurantPage = () => {
                 }
 
             } else if (e.target.textContent === 'Menu') {
+
                 if (main.contains(headline)) {
                     return main.replaceChild(menuPage, headline)
                 } else if (main.contains(contactPage)) {
@@ -40,7 +42,9 @@ const restaurantPage = () => {
                 } else {
                     return main.appendChild(menuPage);
                 }
+
             } else if (e.target.textContent === 'Contact') {
+                
                 if (main.contains(headline)) {
                     return main.replaceChild(contactPage, headline)
                 } else if (main.contains(menuPage)) {
@@ -48,7 +52,9 @@ const restaurantPage = () => {
                 } else {
                     return main.appendChild(contactPage);
                 }
+
             }
+            
         })
     })
 }
