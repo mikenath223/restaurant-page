@@ -5,34 +5,34 @@ const Menu = (() => {
 
     const _menus = [
         {
-            image: '/src/images1.jpg',
+            image: '/src/images/cps.jpg',
             heading: 'CHICKEN PEPPER SOUP',
-            description: 'A blend of spicy soup, delicious. it soothes sore throat.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
         },
         {
-            image: '/src/images1.jpg',
+            image: '/src/images/gmps.jpeg',
             heading: 'GOAT MEAT PEPPER SOUP',
-            description: 'Catfish is a healthy breed of fresh water pond.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
         },
         {
-            image: '/src/images1.jpg',
+            image: '/src/images/eps.jpg',
             heading: 'EGUSI PEPPER SOUP',
-            description: 'Lo',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
         },
         {
-            image: '/src/images1.jpg',
+            image: '/src/images/ops.jpg',
             heading: 'OFFALS PEPPER SOUP',
-            description: 'llll',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
         },
         {
-            image: '/src/images1.jpg',
+            image: '/src/images/clps.jpg',
             heading: 'COW LEG PEPPER SOUP',
-            description: 'llll',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
         },
         {
-            image: '/src/images1.jpg',
+            image: '/src/images/cfps.jpg',
             heading: 'CATFISH PEPPER SOUP',
-            description: 'llll',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
         },
     ];
 
