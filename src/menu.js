@@ -1,6 +1,7 @@
 const Menu = (() => {
 
     const _menuBox = document.createElement('div');
+    _menuBox.classList.add('cards');
 
     const _menus = [
         {
