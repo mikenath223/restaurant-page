@@ -15,10 +15,10 @@ const restaurantPage = () => {
     navBox.appendChild(contact);
     nav.appendChild(navBox);
     main.appendChild(headline);
+    
     element.appendChild(nav);
-    
-    
     element.appendChild(main);
+    
     const btns = document.querySelectorAll('.nav-btn');
 
     return btns.forEach(btn => {
