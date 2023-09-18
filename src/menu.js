@@ -6,27 +6,27 @@ const Menu = (() => {
     const _menus = [
         {
             image: '/src/images1.jpg',
-            heading: 'AGIDI PEPPER SOUP',
+            heading: 'CHICKEN PEPPER SOUP',
             description: 'A blend of spicy soup, delicious. it soothes sore throat.',
         },
         {
             image: '/src/images1.jpg',
-            heading: 'CATFISH PEPPER SOUP',
+            heading: 'GOAT MEAT PEPPER SOUP',
             description: 'Catfish is a healthy breed of fresh water pond.',
         },
         {
             image: '/src/images1.jpg',
-            heading: 'AGIDI PEPPER SOUP',
+            heading: 'EGUSI PEPPER SOUP',
             description: 'Lo',
         },
         {
             image: '/src/images1.jpg',
-            heading: 'CATFISH PEPPER SOUP',
+            heading: 'OFFALS PEPPER SOUP',
             description: 'llll',
         },
         {
             image: '/src/images1.jpg',
-            heading: 'AGIDI PEPPER SOUP',
+            heading: 'COW LEG PEPPER SOUP',
             description: 'llll',
         },
         {
@@ -44,6 +44,9 @@ const Menu = (() => {
             const menuDesc = document.createElement('div');
             menuDesc.setAttribute('class', 'menu-desc');
             
+            const menuImg = document.createElement('div');
+            menuImg.setAttribute('class', 'menu-img');
+            
             const img = document.createElement('img');
             img.src = menu.image;
 
@@ -52,11 +55,11 @@ const Menu = (() => {
             
             const desc = document.createElement('p');
             desc.textContent = menu.description;
-
+            menuImg.appendChild(img)
             menuDesc.appendChild(heading);
             menuDesc.appendChild(desc);
 
-            card.appendChild(img);
+            card.appendChild(menuImg);
             card.appendChild(menuDesc);
 
             return _menuBox.appendChild(card);
