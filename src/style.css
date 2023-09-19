@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     width: 100%;
     height: 100vh;
@@ -13,18 +12,15 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
-
 body::-webkit-scrollbar {
     display: none;
 }
-
 #content {
     display: flex;
     flex-direction: column;
     width: inherit;
     height: inherit;
 }
-
 nav {
     position: sticky;
     text-align: center;
@@ -32,18 +28,14 @@ nav {
     height: 80px;
     background-color: #f8f8f8;
 }
-
 ul {
     display: flex;
     justify-content: center;
     font-size: 24px;
 }
-
 .nav-btn {
 list-style: none; 
-
 }
-
 .nav-btn a {
     text-decoration: none;
     display: block;
@@ -52,12 +44,10 @@ list-style: none;
     color: #028888;
     padding: 20px 0;
 }
-
 .nav-btn a:hover {
     background-color: #02202090;
     color: #f8f8f8;
 }
-
 main {
     display: flex;
     justify-content: center;
@@ -66,17 +56,15 @@ main {
     flex: 1 0 auto;
     color: #f8f8f8;
 }
-
 .div, .card {
     width: 50%;
     height: 300px;
     background-color: #022020cc;
     border-radius: 15px;
     box-shadow: 0 0 5px 1px #022020,
-        inset 0 0 10px 5px, 
+    inset 0 0 10px 5px, 
             inset 0 0 5px 10px #022020;
 }
-
 .div {
     text-align: center;
     padding: 50px;
@@ -91,15 +79,11 @@ main {
     align-items: center;
     gap: 20px;
     margin: 50px auto;
-
 }
-
 .menu-img {
     width: 30%;
     padding-left: 30px;
 }
-
-
 .menu-img img {
     width: 100%;
     height: auto;
@@ -109,23 +93,85 @@ main {
     width: 70%;
     padding: 15px;
 }
-
 .menu-desc h3 {
     text-align: center;
     font-size: xx-large;
     margin-bottom: 20px;
 }
-
 .menu-desc h3, .div h1 {
     color: #ffd700;
 }
-
 .menu-desc p, .div p {
     font-size: large;
-    font-weight: 100;
 }
-
 h1 {
     font-size: 40px;
     margin-bottom: 30px;
+}
+@media screen and (max-width: 968px) {
+    .div, .card {
+        width: 70%;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .div, .card {
+        width: 70%;
+        height: 280px;
+    }
+    .card {
+        gap: 5px;
+    }
+    .div h1 {
+        font-size: x-large;
+    }
+
+    .menu-desc h3 {
+        font-size: x-large;
+        margin-bottom: 20px;
+    }
+    .menu-desc p, .div p {
+        font-size: 16px;
+    }
+    .menu-img {
+        width: 40%;
+        padding-left: 15px;
+    }
+    .menu-desc{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .nav-btn a {
+        width: 90px;
+    }
+
+    .div, .card {
+        width: 90%;
+        height: 230px;
+    }
+
+    .card {
+        gap: 5px;
+    }
+
+    .div h1 {
+        font-size: x-large;
+    }
+
+    .menu-desc h3 {
+        font-size: large;
+        margin-bottom: 20px;
+    }
+    .menu-desc p, .div p {
+        font-size: small;
+    }
+
+    .menu-img {
+        width: 35%;
+        padding-left: 15px;
+    }
+    .menu-desc{
+        width: 65%;
+    }
 }
