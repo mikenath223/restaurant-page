@@ -1,3 +1,10 @@
+import chickenPepperSoup from './images/CPS.jpg';
+import goatMeatPepperSoup from './images/GMPS.jpeg';
+import egusiPepperSoup from './images/eps.jpg';
+import offalsPepperSoup from './images/OPS.jpg';
+import cowLegPepperSoup from './images/CLPS.jpg';
+import catfishPepperSoup from './images/CFPS.jpg';
+
 const Menu = (() => {
 
     const _menuBox = document.createElement('div');
@@ -5,32 +12,32 @@ const Menu = (() => {
 
     const _menus = [
         {
-            image: '/src/images/cps.jpg',
+            image: chickenPepperSoup,
             heading: 'CHICKEN PEPPER SOUP',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
         },
         {
-            image: '/src/images/gmps.jpeg',
+            image: goatMeatPepperSoup,
             heading: 'GOAT MEAT PEPPER SOUP',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
         },
         {
-            image: '/src/images/eps.jpg',
+            image: egusiPepperSoup,
             heading: 'EGUSI PEPPER SOUP',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
         },
         {
-            image: '/src/images/ops.jpg',
+            image: offalsPepperSoup,
             heading: 'OFFALS PEPPER SOUP',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
         },
         {
-            image: '/src/images/clps.jpg',
+            image: cowLegPepperSoup,
             heading: 'COW LEG PEPPER SOUP',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
         },
         {
-            image: '/src/images/cfps.jpg',
+            image: catfishPepperSoup,
             heading: 'CATFISH PEPPER SOUP',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris',
         },

@@ -15,19 +15,8 @@ module.exports = {
                 use: ['style-loader', 'css-loader'],
             },
             {
-                test: /\.(gif|png|avif|jpe?g)$/,
+                test: /\.(png|svg|jpeg|jpg|gif)$/i,
                 type: 'asset/resource',
-                generator: {
-                    filename: "[name][ext]",
-                    publicPath: "assets/images/",
-                    outputPath: "assets/images/",
-                },
-            },
-            {
-                test: /\.html$/,
-                use: [
-                    'html-loader'
-                ]
             },
         ],
     },
