@@ -6,9 +6,12 @@ const Contact = (() => {
         _h1.textContent = 'Please contact us for more details about our services';
     const _p = document.createElement('p');
         _p.textContent = '08083334453';
+    const emailTag = document.createElement('p');
+    emailTag.textContent = 'Email: ourservices@restaurant.co'
 
         div.appendChild(_h1);
         div.appendChild(_p);
+        div.appendChild(emailTag);
 
         const createDiv = () => {
             return div
